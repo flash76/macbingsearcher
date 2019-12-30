@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B51B33723B90DA200529CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51B33623B90DA200529CF9 /* AppDelegate.swift */; };
+		8B51B33923B90DA200529CF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51B33823B90DA200529CF9 /* ViewController.swift */; };
+		8B51B33B23B90DA600529CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B51B33A23B90DA600529CF9 /* Assets.xcassets */; };
+		8B51B33E23B90DA600529CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B51B33C23B90DA600529CF9 /* Main.storyboard */; };
+		8B51B34A23B90DA600529CF9 /* macbingsearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51B34923B90DA600529CF9 /* macbingsearcherTests.swift */; };
+		8B51B35523B90DA600529CF9 /* macbingsearcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51B35423B90DA600529CF9 /* macbingsearcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B51B34623B90DA600529CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B51B32B23B90DA200529CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B51B33223B90DA200529CF9;
+			remoteInfo = macbingsearcher;
+		};
+		8B51B35123B90DA600529CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B51B32B23B90DA200529CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B51B33223B90DA200529CF9;
+			remoteInfo = macbingsearcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B51B33323B90DA200529CF9 /* macbingsearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macbingsearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51B33623B90DA200529CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B51B33823B90DA200529CF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B51B33A23B90DA600529CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B51B33D23B90DA600529CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B51B33F23B90DA600529CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B51B34023B90DA600529CF9 /* macbingsearcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macbingsearcher.entitlements; sourceTree = "<group>"; };
+		8B51B34523B90DA600529CF9 /* macbingsearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macbingsearcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51B34923B90DA600529CF9 /* macbingsearcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macbingsearcherTests.swift; sourceTree = "<group>"; };
+		8B51B34B23B90DA600529CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B51B35023B90DA600529CF9 /* macbingsearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macbingsearcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51B35423B90DA600529CF9 /* macbingsearcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macbingsearcherUITests.swift; sourceTree = "<group>"; };
+		8B51B35623B90DA600529CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B51B33023B90DA200529CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51B34223B90DA600529CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51B34D23B90DA600529CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B51B32A23B90DA200529CF9 = {
+			isa = PBXGroup;
+			children = (
+				8B51B33523B90DA200529CF9 /* macbingsearcher */,
+				8B51B34823B90DA600529CF9 /* macbingsearcherTests */,
+				8B51B35323B90DA600529CF9 /* macbingsearcherUITests */,
+				8B51B33423B90DA200529CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B51B33423B90DA200529CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B51B33323B90DA200529CF9 /* macbingsearcher.app */,
+				8B51B34523B90DA600529CF9 /* macbingsearcherTests.xctest */,
+				8B51B35023B90DA600529CF9 /* macbingsearcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B51B33523B90DA200529CF9 /* macbingsearcher */ = {
+			isa = PBXGroup;
+			children = (
+				8B51B33623B90DA200529CF9 /* AppDelegate.swift */,
+				8B51B33823B90DA200529CF9 /* ViewController.swift */,
+				8B51B33A23B90DA600529CF9 /* Assets.xcassets */,
+				8B51B33C23B90DA600529CF9 /* Main.storyboard */,
+				8B51B33F23B90DA600529CF9 /* Info.plist */,
+				8B51B34023B90DA600529CF9 /* macbingsearcher.entitlements */,
+			);
+			path = macbingsearcher;
+			sourceTree = "<group>";
+		};
+		8B51B34823B90DA600529CF9 /* macbingsearcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B51B34923B90DA600529CF9 /* macbingsearcherTests.swift */,
+				8B51B34B23B90DA600529CF9 /* Info.plist */,
+			);
+			path = macbingsearcherTests;
+			sourceTree = "<group>";
+		};
+		8B51B35323B90DA600529CF9 /* macbingsearcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B51B35423B90DA600529CF9 /* macbingsearcherUITests.swift */,
+				8B51B35623B90DA600529CF9 /* Info.plist */,
+			);
+			path = macbingsearcherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B51B33223B90DA200529CF9 /* macbingsearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B51B35923B90DA600529CF9 /* Build configuration list for PBXNativeTarget "macbingsearcher" */;
+			buildPhases = (
+				8B51B32F23B90DA200529CF9 /* Sources */,
+				8B51B33023B90DA200529CF9 /* Frameworks */,
+				8B51B33123B90DA200529CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macbingsearcher;
+			productName = macbingsearcher;
+			productReference = 8B51B33323B90DA200529CF9 /* macbingsearcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B51B34423B90DA600529CF9 /* macbingsearcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B51B35C23B90DA600529CF9 /* Build configuration list for PBXNativeTarget "macbingsearcherTests" */;
+			buildPhases = (
+				8B51B34123B90DA600529CF9 /* Sources */,
+				8B51B34223B90DA600529CF9 /* Frameworks */,
+				8B51B34323B90DA600529CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B51B34723B90DA600529CF9 /* PBXTargetDependency */,
+			);
+			name = macbingsearcherTests;
+			productName = macbingsearcherTests;
+			productReference = 8B51B34523B90DA600529CF9 /* macbingsearcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B51B34F23B90DA600529CF9 /* macbingsearcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B51B35F23B90DA600529CF9 /* Build configuration list for PBXNativeTarget "macbingsearcherUITests" */;
+			buildPhases = (
+				8B51B34C23B90DA600529CF9 /* Sources */,
+				8B51B34D23B90DA600529CF9 /* Frameworks */,
+				8B51B34E23B90DA600529CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B51B35223B90DA600529CF9 /* PBXTargetDependency */,
+			);
+			name = macbingsearcherUITests;
+			productName = macbingsearcherUITests;
+			productReference = 8B51B35023B90DA600529CF9 /* macbingsearcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B51B32B23B90DA200529CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Varun Somashekar";
+				TargetAttributes = {
+					8B51B33223B90DA200529CF9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8B51B34423B90DA600529CF9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 8B51B33223B90DA200529CF9;
+					};
+					8B51B34F23B90DA600529CF9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 8B51B33223B90DA200529CF9;
+					};
+				};
+			};
+			buildConfigurationList = 8B51B32E23B90DA200529CF9 /* Build configuration list for PBXProject "macbingsearcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B51B32A23B90DA200529CF9;
+			productRefGroup = 8B51B33423B90DA200529CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B51B33223B90DA200529CF9 /* macbingsearcher */,
+				8B51B34423B90DA600529CF9 /* macbingsearcherTests */,
+				8B51B34F23B90DA600529CF9 /* macbingsearcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B51B33123B90DA200529CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51B33B23B90DA600529CF9 /* Assets.xcassets in Resources */,
+				8B51B33E23B90DA600529CF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51B34323B90DA600529CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51B34E23B90DA600529CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B51B32F23B90DA200529CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51B33923B90DA200529CF9 /* ViewController.swift in Sources */,
+				8B51B33723B90DA200529CF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51B34123B90DA600529CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51B34A23B90DA600529CF9 /* macbingsearcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51B34C23B90DA600529CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51B35523B90DA600529CF9 /* macbingsearcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B51B34723B90DA600529CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B51B33223B90DA200529CF9 /* macbingsearcher */;
+			targetProxy = 8B51B34623B90DA600529CF9 /* PBXContainerItemProxy */;
+		};
+		8B51B35223B90DA600529CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B51B33223B90DA200529CF9 /* macbingsearcher */;
+			targetProxy = 8B51B35123B90DA600529CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B51B33C23B90DA600529CF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B51B33D23B90DA600529CF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B51B35723B90DA600529CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B51B35823B90DA600529CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8B51B35A23B90DA600529CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macbingsearcher/macbingsearcher.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = macbingsearcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whattheclap.macbingsearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B51B35B23B90DA600529CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macbingsearcher/macbingsearcher.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = macbingsearcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whattheclap.macbingsearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8B51B35D23B90DA600529CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macbingsearcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = whattheclap.macbingsearcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macbingsearcher.app/Contents/MacOS/macbingsearcher";
+			};
+			name = Debug;
+		};
+		8B51B35E23B90DA600529CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macbingsearcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = whattheclap.macbingsearcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macbingsearcher.app/Contents/MacOS/macbingsearcher";
+			};
+			name = Release;
+		};
+		8B51B36023B90DA600529CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macbingsearcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whattheclap.macbingsearcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macbingsearcher;
+			};
+			name = Debug;
+		};
+		8B51B36123B90DA600529CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macbingsearcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whattheclap.macbingsearcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macbingsearcher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B51B32E23B90DA200529CF9 /* Build configuration list for PBXProject "macbingsearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51B35723B90DA600529CF9 /* Debug */,
+				8B51B35823B90DA600529CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B51B35923B90DA600529CF9 /* Build configuration list for PBXNativeTarget "macbingsearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51B35A23B90DA600529CF9 /* Debug */,
+				8B51B35B23B90DA600529CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B51B35C23B90DA600529CF9 /* Build configuration list for PBXNativeTarget "macbingsearcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51B35D23B90DA600529CF9 /* Debug */,
+				8B51B35E23B90DA600529CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B51B35F23B90DA600529CF9 /* Build configuration list for PBXNativeTarget "macbingsearcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51B36023B90DA600529CF9 /* Debug */,
+				8B51B36123B90DA600529CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B51B32B23B90DA200529CF9 /* Project object */;
+}
