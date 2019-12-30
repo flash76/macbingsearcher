@@ -24,12 +24,70 @@ class macbingsearcherUITests: XCTestCase {
     }
 
     func testExample() {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // This is probably not how UI Tests are supposed to be used...
+        let window = XCUIApplication().windows["Window"]
+        window.buttons["Done"].click()
+        
+        let startButton = window.buttons["Start!"]
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        startButton.click()
+        
+        let edgeButton = window.buttons["Edge"]
+        edgeButton.click()
+        edgeButton.click()
+        edgeButton.click()
+        edgeButton.click()
+        
+        let mobileButton = window.buttons["Mobile"]
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        mobileButton.click()
+        
     }
 
     func testLaunchPerformance() {
