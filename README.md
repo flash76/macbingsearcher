@@ -20,3 +20,6 @@ because the app window might open somewhere else. Just make your own Repeater fi
 ## bot
 I made a UI test that painstakingly clicks all of the buttons, to reach maximum search points per day. I actually don't know
 if this works because my points are maxed out for today, so I have to try tomorrow
+
+also...
+you do this at your own risk (if you even use this crap)
